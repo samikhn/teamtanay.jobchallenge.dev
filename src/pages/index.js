@@ -28,7 +28,51 @@ class Index extends React.Component {
           ]}
         />
         <Section
+          header="Elevate Labs aka Job Challenge 2.0"
+          textNode={
+            <p>
+              We ran a job challenge earlier this year from March to June and got 10+ students placed 
+              in various companies as interns and full-time employees. If you could not complete Job Challenge, 
+              Elevatelabs is for you, why wait?
+              </p>
+          }
+          more={[
+            {
+              link: "https://elevatelabs.tech",
+              text: "check more details here...",
+            },
+          ]}
+        />
+
+        <Section
+          header="what's the challenge?"
+          needsBackground={backgroundGrey}
+          textNode={
+            <p>
+              #TeamTanayJobChallenge requires you to finish a minimum of{" "}
+              <em>5 projects</em>, <em>3 blogs</em> and <em>2 reviews</em> on
+              your projects.
+              <br/>
+                <p align="center">
+                  Registrations closed on&nbsp;&nbsp;<b>1st June,2020</b>
+                </p>
+                <br/>
+                <p align="center">
+                  All the best to the <a href="/participants/">participants</a> and the <a href="/finalist/">finalists!</a>
+                </p> 
+              </p>
+          }
+          more={[
+            {
+              link: "/challenge-details",
+              text: "challenge details here...",
+            },
+          ]}
+        />
+
+        <Section
           header="what's TeamTanay?"
+          needsBackground={backgroundOrange}
           textNode={
             <p>
               An open community of over 20K students and developers spanning
@@ -42,46 +86,36 @@ class Index extends React.Component {
             },
           ]}
         />
-
-        <Section
-          header="what's the challenge?"
-          needsBackground={backgroundGrey}
-          textNode={
-            <p>
-              #TeamTanayJobChallenge requires you to finish a minimum of{" "}
-              <em>5 projects</em>, <em>3 blogs</em> and <em>2 reviews</em> on
-              your projects.
-            </p>
-          }
-          more={[
-            {
-              link: "/challenge-details",
-              text: "challenge details here...",
-            },
-          ]}
-        />
-
         <Section
           header="are we really getting a job?"
-          needsBackground={backgroundOrange}
+          
           textNode={
             <p>
+              <p>
               Yes, though the challenge initially was about getting visibility
               and creating projects + profile it has transformed. Now, we have
               hiring partners who are ready to help, interview and hire
               successful participants from the challenge.
+              </p>
+              <br/>
+                <p style={{textAlign:'center'}}>
+                  <a href="/hiring-partners">
+                  know more about hiring partners
+                  </a>
+                </p>
+              <br/>
+                <p style={{textAlign:'center'}}>
+                  <a href="https://elevatelabs.tech/hire" target="_blank">
+                  wanna hire through the challenge?🤔
+                  </a>
+                </p>
             </p>
           }
-          more={[
-            {
-              link: "/hiring-partners",
-              text: "know more about hiring partners",
-            },
-          ]}
         />
 
         <Section
           header="do we have help?"
+          needsBackground={backgroundGrey}
           textNode={
             <p>
               Yes, you have and will have plenty of help from seniors across the
@@ -99,7 +133,7 @@ class Index extends React.Component {
 
         <Section
           header="have some questions?"
-          needsBackground={backgroundGrey}
+          
           textNode={
             <p>
               We're sure you're having tons of questions. We got a lot of them
@@ -115,6 +149,7 @@ class Index extends React.Component {
         />
         <Section
           header="did you checkout our blogs?"
+          needsBackground={backgroundOrange}
           textNode={
             <p>
               We have cumulated free learning resources, cheap Udemy courses,
